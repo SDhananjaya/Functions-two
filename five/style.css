@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: lightpink;
+}
+
+form{
+    width: 280px;
+   text-align: center;
+   background-color: yellow;
+   height: 240px;
+   margin-left: 32%;
+   border-radius: 20px;
+   
+}
+input{
+   background-color: aqua;
+   border:none;
+   padding: 7px;
+   border-radius: 5px;
+ 
+}
+.crow{
+    margin-top: 40px;
+}
+.button{
+    background-color: rgb(2, 218, 2);
+    border:none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Show Number</title>
+</head>
+<body>
+    <h1>Show Number</h1>
+    <label>Enter a number:</label>
+    <input type="text" id="rep">
+    <button id="showButton">Show</button>
+    <p id="result"></p>
+
+    <script>
+        // Get references to the input box, button, and result paragraph
+        var rep = document.getElementById("rep");
+        var showButton = document.getElementById("showButton");
+        var result = document.getElementById("result");
+
+        // Add a click event listener to the button
+        showButton.addEventListener("click", function() {
+            // Get the value entered in the input box
+            var enteredNumber = rep.value;
+
+            // Display the entered number in the result paragraph
+            result.textContent = "You entered: " + enteredNumber;
+        });
+    </script>
+</body>
+</html>
